@@ -22,3 +22,6 @@ options:
   3. -t TRACKINGID, --trakingid TRACKINGID       (Provide the "TrackingId" of the request).
   4. -s SESSION, --session SESSION               (Provide the "Session" code).
   5. -o OPTION, --option OPTION                  (1- Responses, 2- Errors or 3 for Delay).
+
+  ### Example:
+  - python scripthk.py -u URL -t TRACKID -s SESSION -o OPTION
