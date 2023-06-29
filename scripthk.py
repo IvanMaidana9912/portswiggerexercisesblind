@@ -110,7 +110,7 @@ def main():
     exploit = Exploit(args.url, args.trackingid, args.session, args.option, lenPassword, user)
     exploit.run()
     with open("datapass.txt", "a") as dp:
-        dp.write(f'El password de {user}: {exploit.passview()}')
+        dp.write(f'El password de {user}: {exploit.passview()}\n')
 
 if __name__ == '__main__':
     main()
