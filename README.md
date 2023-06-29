@@ -1,9 +1,16 @@
 ## Portswigger Exercises Blind Success
 
 ### Info 
+- This script will help to solve the exercises blindfolded using Burp Suite. You have to get the TrackId, the session, the URL and the option you require.
 
-#### URL labs: https://portswigger.net/web-security/all-labs#sql-injection
-#### Install python (and extensions in VSC) and pip pwntools
+#### URL labs: 
+- https://portswigger.net/web-security/all-labs#sql-injection
+#### Install 
+- python (and extensions in VSC).
+- pwntools (with command pip).
+
+
+### Help:
 
 usage: scripthk.py [-h] -u URL -t TRACKINGID -s SESSION -o OPTION
 
