@@ -91,10 +91,10 @@ class Exploit:
         
 def get_argument():
     parser = argparse.ArgumentParser(description='Blind SQL Injection with conditional responses-errors and time delays || portswigger labs.')
-    parser.add_argument('-u', '--url', dest='url', required=True, help='Proporcionar URL de la página.')
-    parser.add_argument('-t', '--trakingid', dest='trackingid', required=True, help='Proporcionar el TrackingId de la solicitud.')
-    parser.add_argument('-s', '--session', dest='session', required=True, help='Proporcionar el código de la sesión.')
-    parser.add_argument('-o', '--option', dest='option', required=True, help='1- resposes, 2- error y 3 para delay.')
+    parser.add_argument('-u', '--url', dest='url', required=True, help='Provide page "URL".')
+    parser.add_argument('-t', '--trakingid', dest='trackingid', required=True, help='Provide the "TrackingId" of the request.')
+    parser.add_argument('-s', '--session', dest='session', required=True, help='Provide the "Session" code.')
+    parser.add_argument('-o', '--option', dest='option', required=True, help='1- Responses, 2- Errors or 3 for Delays.')
     #parser.add_argument('-l', '--lenght', dest='lenght', required=True, help='Proporcionar el largo total del password')
     
     return parser.parse_args()
