@@ -17,8 +17,8 @@ usage: scripthk.py [-h] -u URL -t TRACKINGID -s SESSION -o OPTION
 Blind SQL Injection with conditional responses-errors and time delays || portswigger labs.
 
 options:
-  1. -h, --help                                  (show this help message and exit.)
-  2. -u URL, --url URL                           (Provide page "URL".)
-  3. -t TRACKINGID, --trakingid TRACKINGID       (Provide the "TrackingId" of the request.)
-  4. -s SESSION, --session SESSION               (Provide the "Session" code.)
-  5. -o OPTION, --option OPTION                  (1- Responses, 2- Errors or 3 for Delay.)
+  1. -h, --help                                  (show this help message and exit).
+  2. -u URL, --url URL                           (Provide page "URL").
+  3. -t TRACKINGID, --trakingid TRACKINGID       (Provide the "TrackingId" of the request).
+  4. -s SESSION, --session SESSION               (Provide the "Session" code).
+  5. -o OPTION, --option OPTION                  (1- Responses, 2- Errors or 3 for Delay).
